@@ -10,7 +10,7 @@ import time
 
 # Importa la función 'responder_asistente' desde el módulo 'sst'
 # ✅ Puede devolver solo la respuesta o una tupla: (respuesta, tokens_info)
-from agent.chat import responder_asistente
+from agentTTS.chat import responder_asistente
 
 app = FastAPI()
 
