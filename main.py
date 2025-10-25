@@ -43,8 +43,7 @@ async def hablar_async_to_file(texto, filepath):
     communicate = edge_tts.Communicate(
         texto,
         voice="es-CO-SalomeNeural",
-        rate="+18%",
-        pitch="+13Hz"
+     
     )
     await communicate.save(filepath)
 
