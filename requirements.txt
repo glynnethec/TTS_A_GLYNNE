@@ -3,7 +3,7 @@ fastapi
 uvicorn[standard]
 
 # TTS con Microsoft Edge
-edge-tts
+edge-tts==6.0.0
 
 # Variables de entorno
 python-dotenv
