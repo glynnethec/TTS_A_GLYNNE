@@ -42,7 +42,7 @@ async def get_root():
 async def hablar_async_to_file(texto, filepath):
     communicate = edge_tts.Communicate(
         texto,
-        voice="es-CO-SalomeNeural",
+        voice="es-CO-GonzaloNeural",
 
 
     )

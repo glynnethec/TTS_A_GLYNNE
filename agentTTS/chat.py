@@ -94,9 +94,8 @@ async def generar_audio_base64(texto):
     try:
         communicate = edge_tts.Communicate(
             texto,
-            voice="es-CO-SalomeNeural",
-            rate="+18%",
-            pitch="+13Hz"
+            voice="es-CO-GonzaloNeural",
+           
         )
         await communicate.save(mp3_path)
         with open(mp3_path, "rb") as f:
