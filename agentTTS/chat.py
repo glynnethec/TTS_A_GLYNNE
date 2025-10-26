@@ -19,7 +19,7 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# ==== CONFIG ====
+# ==== CONFIG ==
 load_dotenv()
 api_key = os.getenv("GROQ_API_KEY")
 BASE_DIR = os.path.dirname(__file__)
