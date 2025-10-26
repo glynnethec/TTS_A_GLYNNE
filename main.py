@@ -29,7 +29,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# === NUEVA RUTA PARA EL ESTADO DEL SERVIDOR ===
+# === NUEVA RUTA PARA EL ESTADO DEL SERVIDOR ==
 @app.get("/")
 async def get_root():
     """
